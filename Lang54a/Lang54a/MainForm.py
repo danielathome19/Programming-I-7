@@ -188,7 +188,7 @@ class MainForm(Form):
 			miles = 286
 			gallons = 9
 		
-		# Cast one var to float to get real division
+		# Cast one var to float to get real division                 
 		mpg = miles / float(gallons)
 		mpg = round(mpg, 10)
 		
