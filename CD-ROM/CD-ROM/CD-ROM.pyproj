@@ -70,5 +70,8 @@
       <DependentUpon>MainForm.py</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="CD-ROM.cd" />
+  </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />
 </Project>
