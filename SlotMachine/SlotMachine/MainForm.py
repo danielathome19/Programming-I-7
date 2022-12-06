@@ -396,6 +396,8 @@ class MainForm(Form):
 			elif num2 == 5:
 				pb2.Image = im5
 			
+			# Finish num3/pb3
+			
 			self._progressBar1.Increment(1)
 			if self._progressBar1.Value == self._progressBar1.Maximum:
 				self._timer1.Enabled = False
